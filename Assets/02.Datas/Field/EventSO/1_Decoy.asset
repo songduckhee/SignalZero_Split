@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f55cd213066e2a449aa63a0168e76c48, type: 3}
+  m_Name: 1_Decoy
+  m_EditorClassIdentifier: Assembly-CSharp::EventDialogueSO
+  EventType: 6
+  Dialogue:
+  - "\uC774\uBD10, \uB2F9\uC2E0\uC5D0\uAC8C \uC81C\uC548\uC744 \uD558\uB098 \uD558\uC9C0."
+  - "\uC774 \uADFC\uCC98\uC5D0 \uC81C\uAD6D \uB188\uB4E4\uC758 \uC0C1\uB2E8\uC120\uC774
+    \uD558\uB098 \uC788\uB2E4."
+  - "\uC6B0\uB9AC\uB294 \uAC70\uAE30 \uC811\uADFC \uBABB\uD558\uB2C8\\n\uB124\uAC00
+    \uC9C1\uC811 \uC811\uADFC\uD574\uC11C \uC2DC\uADF8\uB110 \uC7AC\uBC0D\uC744 \uC77C\uC73C\uCF1C\uB77C."
+  - "\uC131\uACF5\uD55C\uB2E4\uBA74 \uD55C \uBAAB \uD06C\uAC8C \uB5BC\uC8FC\uC9C0."
+  ButtonCount: 2
+  spawnStructure: {fileID: 0}

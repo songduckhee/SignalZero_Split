@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f55cd213066e2a449aa63a0168e76c48, type: 3}
+  m_Name: 3_limboWarning
+  m_EditorClassIdentifier: Assembly-CSharp::EventDialogueSO
+  EventType: 26
+  Dialogue:
+  - "\uC6A9\uCF00\uB3C4 \uC774 \uC139\uD130\uAE4C\uC9C0 \uB4E4\uC5B4\uC654\uAD70.\\n\uD558\uC9C0\uB9CC
+    \uC5EC\uAE30\uAE4C\uC9C0\uB2E4. \uB3CC\uC544\uAC00\uB77C."
+  - "\uC774\uAC74 \uADF8 \uCABD\uC744 \uC704\uD55C \uACBD\uACE0\uB2E4."
+  - "\uB2E8\uC21C\uD788 \uB808\uD14C\uB97C \uD0D0\uD558\uACE0 \uC788\uB2E4\uBA74\\n\uC758\uBBF8
+    \uC5C6\uB294 \uC9D3\uC774\uB2E4. \uC2DC\uBBAC\uB7EC\uB77C\uB3C4 \uB9D0\uC774\uC57C."
+  - "\uB9BC\uBCF4 \uAD70\uB3C4 \uC190\uC744 \uB5BC\uAE30\uB85C \uD588\uC73C\uB2C8,\\n\uBBFC\uAC04\uC778
+    \uD53C\uD574\uB97C \uAD73\uC774 \uB298\uB9B4 \uD544\uC694\uB294 \uC5C6\uC9C0."
+  ButtonCount: 2
+  spawnStructure: {fileID: 0}

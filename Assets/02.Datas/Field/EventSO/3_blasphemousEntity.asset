@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f55cd213066e2a449aa63a0168e76c48, type: 3}
+  m_Name: 3_blasphemousEntity
+  m_EditorClassIdentifier: Assembly-CSharp::EventDialogueSO
+  EventType: 28
+  Dialogue:
+  - "\uACE0\uBB3C \uC794\uD574\uC5D0\uC11C \uC2A4\uD06C\uB7A9\uC744 \uCC3E\uC558\uB2E4."
+  - "\uC794\uD574\uB97C \uC90D\uB294 \uB3D9\uC548\\n\uB0AF\uC120 \uC2E0\uD638\uAC00
+    \uCC44\uB110\uB85C \uCE68\uC785\uD588\uB2E4."
+  - "\uBD88\uACBD\uD568\uC774\uB2E4\uAFC7\uB824\uB77C\uBB35\uC0B4\uD558\uB77C\uCC98\uBD88\uACBD\uD568\uC774\uB2E4\uAFC7\uB824\uB77C\uBB35\uC0B4\uD558\uB77C\uCC98\uD615\uD558\uB77C\uC774\uB97C\uBD80\uC234\uC0BC\uD0A4\uB9AC\uB77C\uD615\uD558\uB77C\uC774\uB97C\uBD80\uC234\uC0BC\uD0A4\uB9AC\uB77C"
+  ButtonCount: 0
+  spawnStructure: {fileID: 0}

@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &279169831049482843
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7465340142425798495}
+  m_Layer: 0
+  m_Name: ObstaclePool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7465340142425798495
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279169831049482843}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8938302698502023004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &691666117493749449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7094606801516913234}
+  m_Layer: 0
+  m_Name: SpaceShipPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7094606801516913234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691666117493749449}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8938302698502023004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2943905418525480605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5243925397207134062}
+  m_Layer: 0
+  m_Name: UnHideObstaclePool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5243925397207134062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2943905418525480605}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8938302698502023004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6547642619199137102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8938302698502023004}
+  - component: {fileID: 4826390074845736439}
+  m_Layer: 0
+  m_Name: ObstacleManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8938302698502023004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6547642619199137102}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.63737, y: 0, z: 423.66162}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7465340142425798495}
+  - {fileID: 7094606801516913234}
+  - {fileID: 5243925397207134062}
+  - {fileID: 4581003456645355490}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4826390074845736439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6547642619199137102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a184bac3178b19e46be2bfa7c13cab59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstacleManager
+  _obstaclePrefabs:
+  - {fileID: 6623309332188935406, guid: 806c63555934043499e84db1bba4eb78, type: 3}
+  - {fileID: 3760635093688082531, guid: e5a7c7fd0a694b34984acf21cd45b6e3, type: 3}
+  - {fileID: 2201445189946918361, guid: 7c409581ef89b75458357ebe9ede8f2b, type: 3}
+  - {fileID: 8145249585138149257, guid: d56936467b0655d4294b99c87bc01409, type: 3}
+  - {fileID: 153662, guid: 28306de25e99d0b4ea74323de2dfed81, type: 3}
+  - {fileID: 183710, guid: 4306497ffea2b6345b0769a3a402346a, type: 3}
+  - {fileID: 128104, guid: f5dbd4a6011643445a0dffd4dfc74d40, type: 3}
+  - {fileID: 128944, guid: a233330d3364a5944bbb4055ddfea91e, type: 3}
+  - {fileID: 142510, guid: 166e2af65c6c46a44ad3eb729b2c1843, type: 3}
+  - {fileID: 133374, guid: e7fbb6b690eb3f94fa6d1e031be4249b, type: 3}
+  - {fileID: 175418, guid: d259368b696e9a54f8b899cf86be4dca, type: 3}
+  - {fileID: 184038, guid: caea3e7a06271fe4a89695cc419f9c64, type: 3}
+  - {fileID: 197112, guid: b2af83f7a0e6d454582840ec12dbb46d, type: 3}
+  - {fileID: 141954, guid: 63413d090c6496749a181c790e2b14d3, type: 3}
+  - {fileID: 151398, guid: a7dd5fb910026db41924595f6ed8d59e, type: 3}
+  - {fileID: 186026, guid: 00f616f2f2def324eb1781a03e697b80, type: 3}
+  - {fileID: 147164, guid: 55d2170943c24424fb8400963479a14f, type: 3}
+  - {fileID: 176930, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
+  - {fileID: 127644, guid: 4486733afe3d4bf4f9d01e5536082d74, type: 3}
+  - {fileID: 129964, guid: 2cae9ca05dddc7c42b6185ffab5f9bbe, type: 3}
+  - {fileID: 136630, guid: 98492fd4b0ce10b4a8aaa35fa7f6a489, type: 3}
+  - {fileID: 122636, guid: d10eb66e7d7124e4cacc261276b1621d, type: 3}
+  _spaceShipPrefabs:
+  - {fileID: 4595457986478577799, guid: 4c6a91717da6a594d9db042971efcce2, type: 3}
+  - {fileID: 2537209070482912494, guid: 7d18362dd5c4ade47a154b7a0e9eee7c, type: 3}
+  - {fileID: 3617854979446925474, guid: 417548579eb70d648861d8afa2886852, type: 3}
+  - {fileID: 2031963804964800375, guid: 61ed225832e4aaa4d916aaac0ec7570a, type: 3}
+  - {fileID: 6198649674870536492, guid: 98aba7b3f824d79439038c4ff8cf7c7d, type: 3}
+  spawnedObstacles: []
+  spawnedSpaceShips: []
+  spawnedUnhideObstacles: []
+  spawnedBackgroundObstacles: []
+  obstaclePool: {fileID: 7465340142425798495}
+  spaceShipPool: {fileID: 7094606801516913234}
+  unhideObstaclePool: {fileID: 5243925397207134062}
+  backgroundObstaclePool: {fileID: 4581003456645355490}
+  obstacleShipSO:
+  - {fileID: 11400000, guid: 4d04c2066b0d2f24392778af8c4f8fe9, type: 2}
+  - {fileID: 11400000, guid: 638cff7400bc8fe44b94a31061c5ea10, type: 2}
+  - {fileID: 11400000, guid: 30128365614137c438bc06f509a42427, type: 2}
+  explosionEffect: {fileID: 5787605516607176575, guid: 6fa43c04a39fbd24da33536ec188a569, type: 3}
+  player: {fileID: 0}
+  isHide: 0
+  backObstacleOffset: -6
+  backgroundSpawnCount: 15
+--- !u!1 &9219648742124628429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4581003456645355490}
+  m_Layer: 0
+  m_Name: BackGroundObstaclePool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4581003456645355490
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9219648742124628429}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8938302698502023004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

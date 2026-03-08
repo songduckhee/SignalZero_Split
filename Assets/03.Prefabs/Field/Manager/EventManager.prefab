@@ -1,0 +1,229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5083587522439665592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8175536953213326137}
+  - component: {fileID: 3048222332808746729}
+  - component: {fileID: 5764886502935679574}
+  - component: {fileID: 6412435604629667093}
+  - component: {fileID: 6971136177012695880}
+  - component: {fileID: 4433202485136895737}
+  - component: {fileID: 8883967612637768004}
+  m_Layer: 0
+  m_Name: EventManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8175536953213326137
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5083587522439665592}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1322.2297, y: 603.2385, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3048222332808746729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5083587522439665592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 181a4ccbe159e8e4f972b4a857e3b9d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EventManager
+  eventSO:
+  - {fileID: 11400000, guid: 18c5a80f81ed7694c8098fb6b0bc6535, type: 2}
+  - {fileID: 11400000, guid: 8423f73ffac04c641b76664c38858b0f, type: 2}
+  - {fileID: 11400000, guid: cb7e8a72be14f9e439f27fb4e5ca1785, type: 2}
+  - {fileID: 11400000, guid: 061f190d63772d3409ca8d622b529b47, type: 2}
+  - {fileID: 11400000, guid: f7000d3c199dbd54c8720ecbb5c426bc, type: 2}
+  - {fileID: 11400000, guid: 088ee07f766d1844a95e35cf5351c10e, type: 2}
+  - {fileID: 11400000, guid: 6a960c0308827a540859eebfba2068d4, type: 2}
+  - {fileID: 11400000, guid: 2be73af97fe1a0943a80b41940bbc864, type: 2}
+  - {fileID: 11400000, guid: 0529d4a4f4c1ed64c904d59359643e4b, type: 2}
+  - {fileID: 11400000, guid: a4e1d9b9f58768c44aaca6b1f17a6df2, type: 2}
+  - {fileID: 11400000, guid: cad5eee4254cb11489f6f344d2b911f8, type: 2}
+  - {fileID: 11400000, guid: 2f4fd7bbea7049a46ad531561e15fd5d, type: 2}
+  - {fileID: 11400000, guid: bfa4388d6b95f3246981a9a10d6ec3c3, type: 2}
+  - {fileID: 11400000, guid: 39611a05463842047b99a97684300a05, type: 2}
+  - {fileID: 11400000, guid: 18f5d2c529dfb3a48a4fb3c787133b68, type: 2}
+  - {fileID: 11400000, guid: 2ba2898151462404d8df24082f80294b, type: 2}
+  - {fileID: 11400000, guid: af8516346381d0144a4422c78a21869d, type: 2}
+  - {fileID: 11400000, guid: 1d3aa8a26c9589c47926ec603904f1ee, type: 2}
+  - {fileID: 11400000, guid: 4922dab206e87c74aae7d50d229ca417, type: 2}
+  - {fileID: 11400000, guid: d2ebb8c6adb0d2d4dae937505839efa1, type: 2}
+  - {fileID: 11400000, guid: c8166707df029994e8fded8633149590, type: 2}
+  - {fileID: 11400000, guid: fa8ddcabcf4144d4d80b9d7de0b77c43, type: 2}
+  - {fileID: 11400000, guid: d07f2e232c4850e41bbd70e36e6c7933, type: 2}
+  - {fileID: 11400000, guid: a97485da9f2d20c4e83a70ae0d0f1e04, type: 2}
+  - {fileID: 11400000, guid: 443488661b6431745933843eba5a3755, type: 2}
+  - {fileID: 11400000, guid: 134fea40caa8da54b9435dc7d7baf5d6, type: 2}
+  - {fileID: 11400000, guid: 5035f5ab6e5d4df47993b8c3c6534330, type: 2}
+  - {fileID: 11400000, guid: a63d033fd5c85884a869b64008053415, type: 2}
+  - {fileID: 11400000, guid: e124dd10a24da1c4bab305a0d178610e, type: 2}
+  - {fileID: 11400000, guid: c6be5b82fc1f24847a3845fa15a9acf7, type: 2}
+  - {fileID: 11400000, guid: 48d602edd333c314e991f4831ffdc8af, type: 2}
+  - {fileID: 11400000, guid: 472fe9c68aa431d46a62037b95074001, type: 2}
+  - {fileID: 11400000, guid: 1a9e89c5da95c0042b5585c6e35dd5d5, type: 2}
+  - {fileID: 11400000, guid: e54d7f53013bd4f4fb9551ea67ef3ef4, type: 2}
+  - {fileID: 11400000, guid: ab616ea64d7654a47b353bc1b525452b, type: 2}
+  clickDialogue: {fileID: 0}
+  ShipDialogue: {fileID: 0}
+  ShopDialogue: {fileID: 8883967612637768004}
+  Panel_EventUI: {fileID: 0}
+  EventUIAnimator: {fileID: 0}
+  currentEventSection: {fileID: 0}
+  DerelictShipObject: {fileID: 0}
+  DerelictShipUI: {fileID: 0}
+  ObstacleShipUIAnimator: {fileID: 0}
+  DerelictShipUIText: {fileID: 0}
+  BlueSpot: {fileID: 0}
+  contactShip: {fileID: 0}
+  contactPlayer: {fileID: 0}
+  TimerObject: {fileID: 0}
+  Timer: {fileID: 0}
+  ContactTimer: {fileID: 0}
+  isAccept: 0
+  Cradit: {fileID: 11400000, guid: b868e60b3d03c4646bfd3f9746f91e67, type: 2}
+  WeaponItems:
+  - {fileID: 11400000, guid: dbd74ffcc2ebaa344adf1dda165a1a30, type: 2}
+  - {fileID: 11400000, guid: bbeedcaa3e103b04199fa498640c6c84, type: 2}
+  - {fileID: 11400000, guid: 1efff362a6ecbb449999401f4208d6ea, type: 2}
+  - {fileID: 11400000, guid: 5b0cba33bf943e94990b772234c8ec9a, type: 2}
+  - {fileID: 11400000, guid: 37dfe9e098836d34e86f66f8f3351fbf, type: 2}
+  - {fileID: 11400000, guid: 2087f62b3550ebc4db824383460ad448, type: 2}
+  - {fileID: 11400000, guid: 80cac899d4e609b4299d01c5422bf938, type: 2}
+  - {fileID: 11400000, guid: 69e5f77ccdf23114688d551ab341aaa1, type: 2}
+  - {fileID: 11400000, guid: cddfd1f2ba244754e9eaf33322ae9aa9, type: 2}
+  - {fileID: 11400000, guid: b3936f4d61f127949ba23f8eb38a462f, type: 2}
+  - {fileID: 11400000, guid: 0a979ec4009a25842a6d21cbd7b35b99, type: 2}
+  - {fileID: 11400000, guid: 9c944db085256a440b1984ca6f45470d, type: 2}
+  - {fileID: 11400000, guid: afa325295a811744687e9fd9829697d3, type: 2}
+  - {fileID: 11400000, guid: c4669c88fda354a4f965e9655a8f5a3a, type: 2}
+  - {fileID: 11400000, guid: cfb623dd00feaab4bba7b6a699f00a91, type: 2}
+  - {fileID: 11400000, guid: d63de111affb03b4d8df46181ec50445, type: 2}
+  - {fileID: 11400000, guid: d821a2cb99843e04b9bb5936e3b79cdd, type: 2}
+  - {fileID: 11400000, guid: 880a8f2308b7cf749873fe30af615cb7, type: 2}
+  - {fileID: 11400000, guid: 8786d9847a93a6049b0050482e24bba5, type: 2}
+  - {fileID: 11400000, guid: 2ee28beec3ba98d4887adf4ee88e6c0a, type: 2}
+  - {fileID: 11400000, guid: f9740edebc8a9ab409789bbbee66c0ce, type: 2}
+  - {fileID: 11400000, guid: a009602d03429294185d937d440c727c, type: 2}
+  - {fileID: 11400000, guid: 1b631423b6a0ae64cbf5b8c26f0a0e15, type: 2}
+  - {fileID: 11400000, guid: e05c32432fdf3b840814c566af10fd19, type: 2}
+  - {fileID: 11400000, guid: eac91f1529671d64cb09a18ddc58af6c, type: 2}
+  - {fileID: 11400000, guid: 4bd6a0c97d1a1a340b9a796e598d24a4, type: 2}
+  - {fileID: 11400000, guid: e8834036be64b384a8805ed0e42d4b60, type: 2}
+  - {fileID: 11400000, guid: b868e60b3d03c4646bfd3f9746f91e67, type: 2}
+  - {fileID: 11400000, guid: 543e0ec1af410df4d85767a19d7a252c, type: 2}
+  - {fileID: 11400000, guid: e4d4951d81a3a2b439fa90876c43e594, type: 2}
+  - {fileID: 11400000, guid: a9e1240830a40914da4c849c62eac439, type: 2}
+  spawnSet: []
+  currentMonsterIndex: 0
+  SpawnStructures: []
+  UI_Shop: {fileID: 0}
+  Panel_Inven: {fileID: 0}
+  Panel_Upgrade: {fileID: 0}
+--- !u!114 &5764886502935679574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5083587522439665592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7376b03ececcb3b49a3b14cc60e3ef89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RewardDatabase
+  profiles:
+  - {fileID: 11400000, guid: a73a20cd8413ba340be797a431d53c36, type: 2}
+  - {fileID: 11400000, guid: f57fabb28c36c4a42891085d728af656, type: 2}
+  - {fileID: 11400000, guid: 103aeb8c626b37b4bbc60a48c0f8fe49, type: 2}
+  - {fileID: 11400000, guid: 134001d40d0fc8b4096272c900c0ffe4, type: 2}
+  - {fileID: 11400000, guid: 2772e263fd2a9954ea3cdfa22b70962e, type: 2}
+  - {fileID: 11400000, guid: 25934635dc419d044bce260c28e8de67, type: 2}
+--- !u!114 &6412435604629667093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5083587522439665592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02bb719d9e0efeb44982911d9799ad26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RewardSystem
+  rewardDatabase: {fileID: 5764886502935679574}
+  sessionRegistry: {fileID: 6971136177012695880}
+--- !u!114 &6971136177012695880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5083587522439665592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7281a1886705da4418bb908d761b0a35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SessionRegistry
+--- !u!114 &4433202485136895737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5083587522439665592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30274ddd52041f542b1aac4ebf84b168, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameOver
+  Panel_Inven: {fileID: 0}
+  Panel_Ending: {fileID: 0}
+--- !u!114 &8883967612637768004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5083587522439665592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b631215553b350c42897fc0ba1ed2c2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShopDialogue
+  panel_ShopNPC: {fileID: 0}
+  dialogue: {fileID: 0}
+  dialogueButton: {fileID: 0}
+  cape: {fileID: 0}
+  adaptor: {fileID: 0}
+  centinel: {fileID: 0}
+  ShopSOs:
+  - {fileID: 11400000, guid: 388e71f962daf8d459bc39f417dbbec4, type: 2}
+  - {fileID: 11400000, guid: a732be41549d88349a02281af11fa95b, type: 2}
+  - {fileID: 11400000, guid: a1d50e868c703c44eaceca9fc61f49d2, type: 2}
+  - {fileID: 11400000, guid: 8f39554fdb1cd7f46abc2068a9671310, type: 2}
+  - {fileID: 11400000, guid: c5f05032be4fc0240a89279d99c21eb2, type: 2}
+  NpcAnimator: {fileID: 0}
+  ImageAnimater: {fileID: 0}
+  currentNpcEnum: 0

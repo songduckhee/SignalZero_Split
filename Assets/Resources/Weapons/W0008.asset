@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1ce16d713a25e14aa1884578f3dfcd0, type: 3}
+  m_Name: W0008
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  weaponName: Comet-12
+  code: W0008
+  price: 100
+  Model: {fileID: 0}
+  bulletType: 6
+  bulletSize: 5
+  damage: 25
+  sps: 2.5
+  speed: 100
+  lifeTime: 0.8
+  maxAmmo: 0
+  bpo: 1
+  reloadTime: 0
+  rotateSpeed: 100
+  isGuided: 0
+  explosionRange: 1
+  firePos: {x: 0, y: 0, z: 0}
+  spread: 5
+  camShake: 0

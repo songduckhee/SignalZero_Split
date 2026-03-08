@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6662b333203859645b3a8e774595b192, type: 3}
+  m_Name: dockedRescueShip
+  m_EditorClassIdentifier: Assembly-CSharp::ObstacleShipSO
+  dialogues:
+  - "\uC5EC\uAE30\uB294 \uD504\uB8E8\uC2DC\uCE74. \uAD50\uC2E0 \uBC1B\uC558\uC2B5\uB2C8\uB2E4."
+  - "\uC774 \uC2E0\uD638\u2026 \uB2F9\uC2E0\uC740 \uC2DC\uBBAC\uB7EC\uC785\uB2C8\uAE4C?
+    \uD754\uCE58 \uC54A\uC740\uB370 \uC790\uC8FC \uBCF4\uC774\uB294\uAD70\uC694."
+  - "\uC800\uD76C \uD504\uB8E8\uC2DC\uCE74 \uAD6C\uC870\uC120\uC740 \uC57D\uAC04\uC758
+    \uD06C\uB808\uB527\uB9CC \uC788\uB2E4\uBA74 \uB2F9\uC2E0\uC758 \uC6B0\uC8FC\uC120\uC744
+    \uC218\uB9AC \uD574\uB4DC\uB9BD\uB2C8\uB2E4."
+  eventType: 2
+  ButtonCount: 2

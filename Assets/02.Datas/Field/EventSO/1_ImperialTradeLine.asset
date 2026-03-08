@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f55cd213066e2a449aa63a0168e76c48, type: 3}
+  m_Name: 1_ImperialTradeLine
+  m_EditorClassIdentifier: Assembly-CSharp::EventDialogueSO
+  EventType: 13
+  Dialogue:
+  - "\uC815\uC9C0. \uC6B0\uB9AC\uB294 \uD669\uC81C \uD3D0\uD558\uC758 \uBA85\uC744\\n\uC218\uD589\uD558\uB294
+    \uCC44\uD130\uD638\uB2E4."
+  - "\uC0AC\uB0E5\uAC1C\uC778\uAC00? \uC870\uC6A9\uD788 \uB5A0\uB098\uB77C."
+  ButtonCount: 3
+  spawnStructure: {fileID: 2031963804964800375, guid: 61ed225832e4aaa4d916aaac0ec7570a, type: 3}

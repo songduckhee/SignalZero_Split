@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f55cd213066e2a449aa63a0168e76c48, type: 3}
+  m_Name: 3_imperialAdvice
+  m_EditorClassIdentifier: Assembly-CSharp::EventDialogueSO
+  EventType: 27
+  Dialogue:
+  - "\uC81C\uAD6D\uC758 \uC804\uB7B5 \uBCD1\uAE30\uAC00 \uB9C9\uACE0 \uC788\uC5C8\uC744
+    \uD150\uB370\\n\uC774\uB7F0 \uC791\uC740 \uBC30\uAC00 \uC5B4\uB5BB\uAC8C \uB4E4\uC5B4\uC628
+    \uAC70\uC8E0?"
+  - "\uC544, \uC2DC\uBBAC\uB7EC\uAD70\uC694. \uB3C4\uB9DD\uC744 \uCE5C \uAC74\uC9C0,\\n\uCC9C\uC0AC\uC5D0\uAC8C
+    \uB9DE\uC120 \uAC74\uC9C0\uB294 \uBAA8\uB974\uACA0\uC9C0\uB9CC\\n\uC778\uC0C1
+    \uAE4A\uB124\uC694."
+  - "\uD558\uC9C0\uB9CC \uC774 \uC55E\uC73C\uB85C \uB098\uC544\uAC00\uC9C0 \uC54A\uB294
+    \uAC78 \uCD94\uCC9C\uD558\uC9C0\uC694."
+  ButtonCount: 2
+  spawnStructure: {fileID: 0}

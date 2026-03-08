@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f55cd213066e2a449aa63a0168e76c48, type: 3}
+  m_Name: 1_SurpriseInspection
+  m_EditorClassIdentifier: Assembly-CSharp::EventDialogueSO
+  EventType: 2
+  Dialogue:
+  - "\uC544,\uC544 \uC5EC\uAE30\uB294 Type-1,A5F0 \uAE34\uAE09 \uAD6C\uC870\uC2E0\uD638
+    \uC694\uCCAD,\\n\uAE34\uAE09 \uAD6C\uC870\uC2E0\uD638 \uC694\uCCAD"
+  - "\uAC70\uAE30 \uB9CC\uC57D \uC758\uB8B0\uB97C \uC704\uD574 \uC9C0\uB098\uAC00\uACE0\uC788\uB294\\n\uD638\uC704\uAE30\uAC00
+    \uC788\uB2E4\uBA74 \uAD6C\uC870 \uBC14\uB780\uB2E4."
+  - "\uBCF8 \uD638\uC704\uAE30\uB294 \uC815\uCC30\uC744 \uBAA9\uC801\uC73C\uB85C
+    \uD30C\uACAC\uC784\uBB34\uB97C\\n\uC218\uD589\uC911\uC5D0 \uC801\uAE30\uB97C
+    \uB9CC\uB098 \uC678\uBD80 \uC7A5\uAC11\uC774 \uD30C\uC190,\\n\uC6C0\uC9C1\uC77C
+    \uC218\uAC00 \uC5C6\uAC8C\uB418\uC5C8\uB2E4."
+  - "\uAD6C\uC870\uC218\uB77D \uC2DC \uD568\uB300 \uB2E8\uC7A5\uC5D0\uAC8C\\n\uC5F0\uB77D
+    \uD6C4 \uD06C\uB808\uB527\uC744 \uC9C0\uAE09\uBC1B\uC744 \uC218 \uC788\uB2E4."
+  ButtonCount: 2
+  spawnStructure: {fileID: 0}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "우주 잔해 청소",
+    "description": "근처 섹션의 우주 쓰레기를 제거하라.",
+    "goal": {
+      "type": "Kill",
+      "target": "Trash",
+      "count": 5
+    },
+    "reward": {
+      "gold": 500,
+      "exp": 100,
+      "items": []
+    }
+  },
+  {
+    "id": 2,
+    "name": "탐사 데이터 수집",
+    "description": "섹션 3곳을 탐사하여 데이터를 수집하라.",
+    "goal": {
+      "type": "Explore",
+      "sectionCount": 3
+    },
+    "reward": {
+      "gold": 300,
+      "exp": 200
+    }
+  }
+]
