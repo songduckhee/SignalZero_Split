@@ -1,3 +1,8 @@
+
+##### + 이 레포는 원본 프로젝트에서 개인 코드만 분리한 레포입니다
+---
+
+
 # SignalZero
 # 프로젝트 이름
 
@@ -60,11 +65,7 @@
 ## 프로젝트 파일 구조
 ```
 📦Assets
- ┣ 📂00.Scenes
- ┃ ┣ 📂Switch Task
  ┣ 📂01.Scripts
- ┃ ┣ 📂Controller
- ┃ ┣ 📂Data
  ┃ ┣ 📂Field
  ┃ ┃ ┣ 📂BlueSpot&Boss
  ┃ ┃ ┣ 📂Dialogue
@@ -72,113 +73,46 @@
  ┃ ┃ ┃ ┣ 📂EventImplementation
  ┃ ┃ ┃ ┣ 📂EventSO
  ┃ ┃ ┣ 📂Obstacle
- ┃ ┃ ┃ ┣ 📂ObjectPoolling 
- ┃ ┃ ┃ ┣ 📂PopUpShipUI
- ┃ ┃ ┃ ┣ 📂ShipEnter
+ ┃ ┃ ┃ ┣ 📂ObstacleShipUI
+ ┃ ┃ ┃ ┃ ┣ 📂ObjectPooling
+ ┃ ┃ ┃ ┃ ┣ 📂ObstacleSO
  ┃ ┃ ┃ ┣ 📂SpaceShipSO
+ ┃ ┃ ┣ 📂Skybox
  ┃ ┃ ┣ 📂TestPlayer
- ┃ ┣ 📂Fighter
- ┃ ┃ ┣ 📂Manager
- ┃ ┃ ┣ 📂Movement
- ┃ ┃ ┣ 📂ScriptableObject
- ┃ ┃ ┃ ┣ 📂SOs
- ┃ ┃ ┃ ┣ 📂TestCodes
- ┃ ┣ 📂Inventory
- ┃ ┣ 📂Manager
- ┃ ┣ 📂Monster
- ┃ ┃ ┣ 📂Boss
- ┃ ┃ ┃ ┣ 📂Core
- ┃ ┃ ┃ ┣ 📂Weapons
- ┃ ┃ ┣ 📂Data
- ┃ ┃ ┣ 📂formation
- ┃ ┃ ┣ 📂ItemDrop
- ┃ ┃ ┣ 📂Manager
- ┃ ┃ ┣ 📂Movement
- ┃ ┃ ┣ 📂Patterns
- ┃ ┃ ┃ ┣ 📂Attack 
- ┃ ┃ ┃ ┣ 📂Movement
- ┃ ┃ ┣ 📂Test
- ┃ ┃ ┣ 📂UI 
- ┃ ┣ 📂Quest
- ┃ ┣ 📂Sound
- ┃ ┣ 📂UI 
- ┃ ┣ 📂Weapon  
+ ┃ ┣ 📂GameOver
+ ┃ ┣ 📂MiniMap
+ ┃ ┃ ┣ 📂MapSpriteSO
+ ┃ ┃ ┣ 📂MapMap
+ ┃ ┣ 📂SpaceShip
+ ┃ ┃ ┣ 📂SpaceShipScripts
  ┣ 📂02.Datas
- ┃ ┣ 📂Bullet
- ┃ ┣ 📂Item
- ┃ ┣ 📂Weapon
- ┣ 📂03.Prefabs
- ┃ ┣ 📂Bullet
- ┃ ┣ 📂Field
+ ┃ ┣ 📂field
  ┃ ┃ ┣ 📂EventSO
- ┃ ┃ ┣ 📂Manager
  ┃ ┃ ┣ 📂ObstacleSO
+ ┃ ┃ ┣ 📂RewardSO
+ ┃ ┃ ┣ 📂ShopSO
+ ┃ ┣ 📂MiniMap
+ ┃ ┃ ┣ 📂CellSpriteSO
+ ┣ 📂03.Prefabs
+ ┃ ┣ 📂Field
+ ┃ ┃ ┣ 📂Manager
  ┃ ┃ ┣ 📂UI
  ┃ ┃ ┃ ┣ 📂Button
  ┃ ┃ ┣ 📂VFX
- ┃ ┣ 📂Fighter
- ┃ ┣ 📂Item
- ┃ ┣ 📂Monster
- ┃ ┃ ┣ 📂Animator
- ┃ ┃ ┣ 📂Formation
- ┃ ┃ ┃ ┣ 📂Paths
- ┃ ┃ ┣ 📂Manager
- ┃ ┃ ┣ 📂UI
- ┃ ┣ 📂Sound
- ┃ ┣ 📂Weapon
- ┃ ┣ 📂WeaponModel
- ┣ 📂04.Artworks
- ┃ ┣ 📂DialogueUI
- ┃ ┣ 📂Fighter
- ┃ ┃ ┣ 📂FBX
- ┃ ┃ ┣ 📂Material
- ┃ ┃ ┣ 📂PNG
- ┃ ┃ ┃ ┣ 📂Materials
- ┃ ┃ ┃ ┣ 📂Test
- ┃ ┃ ┃ ┃ ┣ 📂Materials
- ┃ ┃ ┣ 📂Shader
- ┃ ┣ 📂Icon
- ┃ ┣ 📂Item
- ┃ ┃ ┣ 📂fbx
- ┃ ┃ ┃ ┣ 📂Blue Beetle
- ┃ ┃ ┃ ┣ 📂Bump
- ┃ ┃ ┃ ┣ 📂Fairy
- ┃ ┣ 📂Map
- ┃ ┣ 📂Monster
- ┃ ┃ ┣ 📂FBX
- ┃ ┃ ┣ 📂Material
- ┃ ┃ ┣ 📂PNG
- ┃ ┃ ┣ 📂Shader
- ┃ ┣ 📂Weapon
- ┃ ┃ ┣ 📂fbx
+ ┃ ┣ 📂MiniMap
+ ┃ ┣ 📂Npc
+ ┃ ┣ 📂SpaceShip
  ┣ 📂05.Animations
- ┃ ┣ 📂Clips
- ┃ ┣ 📂Controllers
- ┃ ┣ 📂DerelictShipUI
- ┣ 📂06.Sounds
- ┃ ┣ 📂Clips
- ┃ ┃ ┣ 📂Sfx
- ┣ 📂33_Material
+ ┃ ┣ 📂BlueSpotUI
+ ┃ ┣ 📂NpcAnimation
+ ┃ ┣ 📂SpaceShipUI
  ┣ 📂72_Font
- ┣ 📂78_SpaceAsset
- ┣ 📂87_ScriptableObject
  ┣ 📂99.Extra
- ┣ 📂EffectCore
- ┣ 📂MapUI
- ┣ 📂MonsterTest
- ┣ 📂PlayerTest
- ┣ 📂Prefab
+ ┣ 📂Plugins
  ┣ 📂ProtoTypeCS
  ┣ 📂Resources
- ┣ 📂Scalable Grid Prototype Materials
- ┣ 📂Scenes
- ┣ 📂Scripts
- ┣ 📂Skybox
- ┣ 📂SpaceShip
  ┣ 📂TextMesh Pro
  ┣ 📂TutorialInfo
- ┣ 📂UIFramework
- ┣ 📂_Recovery
  ```
 ## 와이어프레임
 https://www.figma.com/board/WEq6ZOYA8HWJTYJM7v6r5C/%EC%8B%9C%EA%B7%B8%EB%84%90-%EC%A0%9C%EB%A1%9C-%EC%99%80%EC%9D%B4%EC%96%B4-%ED%94%84%EB%A0%88%EC%9E%84?node-id=0-1&t=5ophUx9kGWc5PBVA-1
